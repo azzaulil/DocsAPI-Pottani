@@ -34,7 +34,6 @@
         "email": "test@mail.com",
         "password": "12345678",
         "password_confirmation": "12345678",
-        "id_users": "3",
         "nama_lengkap": "Ini Testing",
         "alamat": "Jogja",
         "jenis_kelamin": "L",
