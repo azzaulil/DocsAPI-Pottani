@@ -1,6 +1,7 @@
 # Show All Class
+* Unauthenticated can access
 
-* Endpoint: `/api/member/show-all-class`
+* Endpoint: `/api/auth/show-all-class`
 * HTTP Method: `GET`
 * Request Header:
     * Accept: `application/json`
@@ -46,12 +47,15 @@
 * Response Body:
     ```JSON
     {
-        "id_member": 1,
-        "id_status": 5,
-        "id_class": "1",
-        "updated_at": "2020-11-26T07:14:35.000000Z",
-        "created_at": "2020-11-26T07:14:35.000000Z",
-        "id": 2
+        "status": "Success",
+        "data": {
+            "id_member": 1,
+            "id_status": 5,
+            "id_class": "1",
+            "updated_at": "2020-12-03T14:21:12.000000Z",
+            "created_at": "2020-12-03T14:21:12.000000Z",
+            "id": 2
+        }
     }
     ```
 

@@ -1,7 +1,7 @@
 # Create Class
 
 * Endpoint: `/api/admin/create-class`
-* HTTP Method: `GET`
+* HTTP Method: `POST`
 * Request Header:
     * Accept: `application/json`
 * Request Body:
