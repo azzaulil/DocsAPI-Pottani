@@ -11,24 +11,38 @@
 * Response Body:
     ```JSON
     {
-    "status": "Success",
-    "size": 1,
-    "data": {
-        "class": [
-            {
-                "id_class": 1,
-                "nama": "Kelas Hidroponik",
-                "poster": "20200824_123156.jpg",
-                "deskripsi": "Kelas ini mengajarkan tentang hidroponik",
-                "link_video": "https://www.youtube.com/",
-                "biaya": 150000,
-                "id_status": 4,
-                "created_at": "2020-11-28T10:07:28.000000Z",
-                "updated_at": "2020-11-28T10:07:28.000000Z"
-            }
-        ]
+        "status": "Success",
+        "data": {
+            "kelas yang buka": [
+                {
+                    "id_class": 2,
+                    "nama": "Kelas Microgreens 101 : Get to Know More about Microgreens",
+                    "poster": "IMG-20201202-WA0001.jpg",
+                    "deskripsi": "Sebuah kelas yang menghadirkan praktisi microgreens untuk berbagi pengetahuan dan pengalaman selama menekuni microgreens",
+                    "date_class": "2020-12-12",
+                    "link_video": "-",
+                    "biaya": 0,
+                    "id_class_category": 2,
+                    "created_at": "2020-12-11T15:43:47.000000Z",
+                    "updated_at": "2020-12-11T15:43:47.000000Z"
+                }
+            ],
+            "kelas yang tutup": [
+                {
+                    "id_class": 1,
+                    "nama": "Kelas Hidroponik : Dari Hobi Jadi Bisnis Masa Kini",
+                    "poster": "IMG-20201202-WA0000.jpg",
+                    "deskripsi": "Sebuah kelas yang menghadirkan praktisi hidroponik untuk berbagi pengetahuan dan pengalaman selama menekuni hidroponik",
+                    "date_class": "2020-09-19",
+                    "link_video": "-",
+                    "biaya": 0,
+                    "id_class_category": 1,
+                    "created_at": "2020-12-11T15:43:47.000000Z",
+                    "updated_at": "2020-12-11T15:43:47.000000Z"
+                }
+            ]
+        }
     }
-}
     ```
 
 # Show Detail Class
@@ -49,13 +63,14 @@
             "class": {
                 "id_class": 1,
                 "nama": "Kelas Hidroponik : Dari Hobi Jadi Bisnis Masa Kini",
-                "poster": "1607083265.jpg",
+                "poster": "IMG-20201202-WA0000.jpg",
                 "deskripsi": "Sebuah kelas yang menghadirkan praktisi hidroponik untuk berbagi pengetahuan dan pengalaman selama menekuni hidroponik",
+                "date_class": "2020-09-19",
                 "link_video": "-",
                 "biaya": 0,
-                "id_status": 4,
-                "created_at": "2020-12-02T09:03:21.000000Z",
-                "updated_at": "2020-12-02T09:03:21.000000Z"
+                "id_class_category": 1,
+                "created_at": "2020-12-11T15:43:47.000000Z",
+                "updated_at": "2020-12-11T15:43:47.000000Z"
             }
         }
     }
