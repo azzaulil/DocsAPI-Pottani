@@ -10,8 +10,10 @@
         "nama": "Kelas Hidroponik",
         "poster": "20200824_123156.jpg",
         "deskripsi": "Kelas ini mengajarkan tentang hidroponik",
+        "date_class": "2020-12-19",
         "link_video": "https://www.youtube.com/",
-        "biaya": "150000"
+        "biaya": "120000",
+        "id_class_category": "1"
     }
     ```
 * Response Body:
@@ -21,13 +23,15 @@
         "data": {
             "class": {
                 "nama": "Kelas Hidroponik",
-                "deskripsi": "Kelas ini mengajarkan tentang hidroponik",
+                "deskripsi": "Sebuah kelas yang menghadirkan praktisi hidroponik untuk berbagi pengetahuan dan pengalaman selama menekuni hidroponik",
+                "date_class": "2020-12-19",
                 "link_video": "https://www.youtube.com/",
-                "biaya": "150000",
-                "poster": "1605105680.jpg",
-                "updated_at": "2020-11-11T14:41:20.000000Z",
-                "created_at": "2020-11-11T14:41:20.000000Z",
-                "id": 3
+                "biaya": "120000",
+                "id_class_category": "1",
+                "poster": "1607955700.jpg",
+                "updated_at": "2020-12-14T14:21:40.000000Z",
+                "created_at": "2020-12-14T14:21:40.000000Z",
+                "id_class": 4
             }
         }
     }
@@ -35,7 +39,7 @@
 
 # Update Class
 
-* Endpoint: `/api/admin/update-class/2`
+* Endpoint: `/api/admin/update-class/3`
 * HTTP Method: `POST`
 * Request Header:
     * Accept: `application/json`
@@ -45,8 +49,10 @@
         "nama": "Kelas Vertikular",
         "poster": "20200824_184539.jpg",
         "deskripsi": "Kelas ini mengajarkan tentang vertikular",
-        "link_video": "https://www.youtube.com/",
-        "biaya": "120000"
+        "date_class": "2020-12-20",
+        "link_video": "-",
+        "biaya": "0",
+        "id_class_category": "2"
     }
     ```
 * Response Body:
@@ -56,7 +62,7 @@
 
 # Delete Class
 
-* Endpoint: `/api/admin/delete-class/1`
+* Endpoint: `/api/admin/delete-class/3`
 * HTTP Method: `DELETE`
 * Request Header:
     * Accept: `application/json`
@@ -89,24 +95,28 @@
         "totalData": 2,
         "classes": [
             {
-                "id": 2,
-                "nama": "Kelas Vertikular",
-                "poster": "1605107188.jpg",
-                "deskripsi": "Kelas ini mengajarkan tentang vertikular",
-                "link_video": "https://www.youtube.com/",
-                "biaya": 120000,
-                "created_at": "2020-11-11T14:40:25.000000Z",
-                "updated_at": "2020-11-11T15:06:28.000000Z"
+                "id_class": 1,
+                "nama": "Kelas Hidroponik : Dari Hobi Jadi Bisnis Masa Kini",
+                "poster": "IMG-20201202-WA0000.jpg",
+                "deskripsi": "Sebuah kelas yang menghadirkan praktisi hidroponik untuk berbagi pengetahuan dan pengalaman selama menekuni hidroponik",
+                "date_class": "2020-09-19",
+                "link_video": "-",
+                "biaya": 0,
+                "id_class_category": 1,
+                "created_at": "2020-12-14T13:55:57.000000Z",
+                "updated_at": "2020-12-14T13:55:57.000000Z"
             },
             {
-                "id": 3,
-                "nama": "Kelas Hidroponik",
-                "poster": "1605105680.jpg",
-                "deskripsi": "Kelas ini mengajarkan tentang hidroponik",
-                "link_video": "https://www.youtube.com/",
-                "biaya": 150000,
-                "created_at": "2020-11-11T14:41:20.000000Z",
-                "updated_at": "2020-11-11T14:41:20.000000Z"
+                "id_class": 2,
+                "nama": "Kelas Microgreens 101 : Get to Know More about Microgreens",
+                "poster": "IMG-20201202-WA0001.jpg",
+                "deskripsi": "Sebuah kelas yang menghadirkan praktisi microgreens untuk berbagi pengetahuan dan pengalaman selama menekuni microgreens",
+                "date_class": "2020-09-27",
+                "link_video": "-",
+                "biaya": 0,
+                "id_class_category": 2,
+                "created_at": "2020-12-14T13:55:57.000000Z",
+                "updated_at": "2020-12-14T13:55:57.000000Z"
             }
         ]
     }
