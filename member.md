@@ -68,40 +68,32 @@
 * Response Body:
     ```JSON
     {
-        "status": "Success",
-        "data": {
-            "class": {
-                "id_class": 2,
-                "nama": "Kelas Microgreens 101 : Get to Know More about Microgreens",
-                "poster": "IMG-20201202-WA0001.jpg",
-                "deskripsi": "Sebuah kelas yang menghadirkan praktisi microgreens untuk berbagi pengetahuan dan pengalaman selama menekuni microgreens",
-                "date_class": "2020-12-12",
-                "link_video": "-",
-                "biaya": 0,
-                "id_class_category": 2,
-                "created_at": "2020-12-11T15:43:47.000000Z",
-                "updated_at": "2020-12-11T15:43:47.000000Z",
-                "member_class": [
-                    {
-                        "id": 1,
-                        "id_member": 1,
-                        "id_class": 2,
-                        "id_status": 5,
-                        "created_at": "2020-12-11T15:56:48.000000Z",
-                        "updated_at": "2020-12-11T15:56:48.000000Z"
-                    },
-                    {
-                        "id": 2,
-                        "id_member": 2,
-                        "id_class": 2,
-                        "id_status": 5,
-                        "created_at": "2020-12-11T16:22:03.000000Z",
-                        "updated_at": "2020-12-11T16:22:03.000000Z"
-                    }
-                ]
-            }
+    "status": "Success",
+    "data": {
+        "class": {
+            "id_class": 1,
+            "nama": "Kelas Hidroponik : Dari Hobi Jadi Bisnis Masa Kini",
+            "poster": "IMG-20201202-WA0000.jpg",
+            "deskripsi": "Sebuah kelas yang menghadirkan praktisi hidroponik untuk berbagi pengetahuan dan pengalaman selama menekuni hidroponik",
+            "link_video": "-",
+            "biaya": 0,
+            "id_class_category": 1,
+            "id_status": 4,
+            "created_at": "2020-12-23T15:49:23.000000Z",
+            "updated_at": "2020-12-23T15:49:23.000000Z",
+            "member_class": [
+                {
+                    "id": 1,
+                    "id_member": 1,
+                    "id_class": 1,
+                    "id_status": 5,
+                    "created_at": "2020-12-23T16:01:08.000000Z",
+                    "updated_at": "2020-12-23T16:01:08.000000Z"
+                }
+            ]
         }
     }
+}
     ```   
 
 # Show Profile
