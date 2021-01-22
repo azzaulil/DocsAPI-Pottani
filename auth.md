@@ -48,3 +48,93 @@
         "message": "Successfully registered as Member!"
     }
     ```
+
+# Show All Class
+
+* Endpoint: `/api/auth/show-all-class`
+* HTTP Method: `GET`
+* Request Header:
+    * Accept: `application/json`
+* Request Body:
+    ```JSON
+    -
+    ```
+* Response Body:
+    ```JSON
+    {
+        "status": "Success",
+        "data": {
+            "kelas yang buka": [
+                {
+                    "id_class": 1,
+                    "nama": "Kelas Hidroponik : Dari Hobi Jadi Bisnis Masa Kini",
+                    "poster": "IMG-20201202-WA0000.jpg",
+                    "deskripsi": "Sebuah kelas yang menghadirkan praktisi hidroponik untuk berbagi pengetahuan dan pengalaman selama menekuni hidroponik",
+                    "link_video": "-",
+                    "biaya": 0,
+                    "id_kategori": 1,
+                    "id_status": 4,
+                    "created_at": "2021-01-14T06:40:03.000000Z",
+                    "updated_at": "2021-01-14T06:40:03.000000Z"
+                },
+                {
+                    "id_class": 3,
+                    "nama": "Kelas Vertikular",
+                    "poster": "1610953842.jpg",
+                    "deskripsi": "Sebuah kelas yang menghadirkan praktisi hidroponik untuk berbagi pengetahuan dan pengalaman selama menekuni hidroponik",
+                    "link_video": "https://www.youtube.com/",
+                    "biaya": 120000,
+                    "id_kategori": 1,
+                    "id_status": 4,
+                    "created_at": "2021-01-14T06:50:24.000000Z",
+                    "updated_at": "2021-01-18T07:10:42.000000Z"
+                }
+            ],
+            "kelas yang tutup": [
+                {
+                    "id_class": 2,
+                    "nama": "Kelas Microgreens 101 : Get to Know More about Microgreens",
+                    "poster": "IMG-20201202-WA0001.jpg",
+                    "deskripsi": "Sebuah kelas yang menghadirkan praktisi microgreens untuk berbagi pengetahuan dan pengalaman selama menekuni microgreens",
+                    "link_video": "-",
+                    "biaya": 0,
+                    "id_kategori": 2,
+                    "id_status": 6,
+                    "created_at": "2021-01-14T06:40:03.000000Z",
+                    "updated_at": "2021-01-14T06:40:03.000000Z"
+                }
+            ]
+        }
+    }
+    ```
+
+# Show Detail Class
+
+* Endpoint: `/api/auth/show-detail-class/1`
+* HTTP Method: `GET`
+* Request Header:
+    * Accept: `application/json`
+* Request Body:
+    ```JSON
+    -
+    ```
+* Response Body:
+    ```JSON
+    {
+        "status": "Success",
+        "data": {
+            "class": {
+                "id_class": 1,
+                "nama": "Kelas Hidroponik : Dari Hobi Jadi Bisnis Masa Kini",
+                "poster": "IMG-20201202-WA0000.jpg",
+                "deskripsi": "Sebuah kelas yang menghadirkan praktisi hidroponik untuk berbagi pengetahuan dan pengalaman selama menekuni hidroponik",
+                "link_video": "-",
+                "biaya": 0,
+                "id_kategori": 1,
+                "id_status": 4,
+                "created_at": "2021-01-14T06:40:03.000000Z",
+                "updated_at": "2021-01-14T06:40:03.000000Z"
+            }
+        }
+    }
+    ```
